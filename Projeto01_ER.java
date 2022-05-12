@@ -50,7 +50,7 @@ public class Projeto01_ER {
 
         };
 
-         String regex ="^(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z]).{8,8}$";
+         String regex ="^(?=.*[A-Z])(?=.*[0-9])(?=.+[a-z]).{8,8}$";
 
        
         Pattern pattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
